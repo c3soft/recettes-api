@@ -10,7 +10,6 @@
         "doctrine/doctrine-bundle": "^2.7",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.14",
-        "friendsofphp/php-cs-fixer": "^3.13",
         "symfony/console": "6.2.*",
         "symfony/dotenv": "6.2.*",
         "symfony/flex": "^2",
@@ -22,6 +21,7 @@
         "twig/twig": "^2.12|^3.0"
     },
     "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.13",
         "symfony/debug-bundle": "6.2.*",
         "symfony/maker-bundle": "^1.48",
         "symfony/monolog-bundle": "^3.0",
