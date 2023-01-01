@@ -18,10 +18,11 @@ services:
       - "8000:80"
 
   db:
-    image: mariadb:10
+    image: mariadb
+    restart: always
     environment:
       MARIADB_ROOT_PASSWORD: pass
-      MARIADB_DATABASE: api
+      MARIADB_DATABASE: api_recipe
     volumes:
       - db-data:/var/lib/mysql
     ports:
